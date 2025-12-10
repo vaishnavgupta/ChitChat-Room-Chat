@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Stack+Sans+Notch:wght@200..700&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-stacksans: "Stack Sans Notch", sans-serif;
+  --font-indieflower: "Indie Flower", sans-serif;
+}
